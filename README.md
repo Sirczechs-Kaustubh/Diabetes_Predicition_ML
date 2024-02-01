@@ -11,6 +11,10 @@ Once you have finished, upload your report to your own github repo. Please 'Exam
 # import python and numpy
 import pandas as pd
 import numpy as np
+import sys
+
+#Check current python version
+print(sys.version)
 
 #read the data file
 df = pd.read_excel()
