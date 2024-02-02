@@ -13,6 +13,10 @@ Once you have finished, upload your report to your own github repo. Please 'Exam
   - Pandas library
   - numpy library
   - scikit-learn library
+- If you decide to download the file, remeber the file path. You will need it for reading the excel file
+- If you want to create more attractive figures, then consider importing the matplotlib and seaborn libraries
+
+
 
 ``` python
 # import python and numpy
