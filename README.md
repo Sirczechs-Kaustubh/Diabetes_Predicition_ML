@@ -85,4 +85,4 @@ dt_pred = dt_clf.fit(X_train, y_train).predict(X_test)
 matthews_corrcoef(y_test, rf_pred), matthews_corrcoef(y_test, ann_pred), matthews_corrcoef(y_test, lr_pred), matthews_corrcoef(y_test, dt_pred)
 
 #check the F1 score
-f1_score(y_test, rf_pred), f1_score(y_test, ann_pred), f1_score(y_test, lr_pred), f1_score(y_test, dt_pred) ```
+f1_score(y_test, rf_pred), f1_score(y_test, ann_pred), f1_score(y_test, lr_pred), f1_score(y_test, dt_pred)
