@@ -6,8 +6,13 @@ In this weeks lecture, we looked at the machine learning (ML) training and tunin
 
 Once you have finished, upload your report to your own github repo. Please 'Example_report' for guidance on how to structure the report.
 
+### Cloning the repo to colab
+   - Copy  and paste the following code into colab and then execture:
+     - !git clone https://github.com/Dr-M-ELBA/Practical_3.git
 
-### A Few Points
+
+
+#### A Few Points
 
 - If you are using Colab, then all the python libraries would be readily available. For other environemnts, if you haven't already, you will need to install the:
   - Pandas library
@@ -16,6 +21,8 @@ Once you have finished, upload your report to your own github repo. Please 'Exam
 - If you decide to download the file, remeber the file path. You will need it for reading the excel file
 - If you want to create more attractive figures, then consider importing the matplotlib and seaborn libraries
 
+
+#### Example Code
 
 
 ``` python
