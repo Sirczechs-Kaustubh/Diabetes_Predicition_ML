@@ -7,6 +7,13 @@ In this weeks lecture, we looked at the machine learning (ML) training and tunin
 Once you have finished, upload your report to your own github repo. Please 'Example_report' for guidance on how to structure the report.
 
 
+### A Few Points
+
+- If you are using Colab, then all the python libraries would be readily available. For other environemnts, if you haven't already, you will need to install the:
+  - Pandas library
+  - numpy library
+  - scikit-learn library
+
 ``` python
 # import python and numpy
 import pandas as pd
