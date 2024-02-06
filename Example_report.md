@@ -13,15 +13,27 @@ In this report, I will detail the use of a machine learning (ML) pipeline for pr
 and glucose levels. 
 
 ## Methodology
+
+The ideal methodology will be as detailed and as easy to follow as possible. Think of it like writing a recipe for a meal. When it comes to AI, it is best practice to report the version number of the software used (e.g., Python v.3.7.6) and the computer specs/colab specs. 
+
 The data was obtained from the IEEE DataPort. The digital object identifier (DOI) is https://dx.doi.org/10.21227/c4pp-6347
 
 All coding was performed using **Python** version (3.7.6)
 
 ## Results
 
-### Exploratory Data Analysis
+Writing the results section is possibly the easiest of all the sections. A good template is:
 
-The dataset was found to be free of missing data points, with 9 features and one target output. From the 16,969 patients, 98% were diabetic and 2% were not diabetic
+when I..., I found/saw/observed/discovered...., Therefore/thus/hence....
+
+For example: 
+
+<ins>When I explored</ins> the dataset for the ratio of diabetic to non-diabetic, <ins>I discovered</ins> the ratio to be 98:2. <ins>Therefore</ins>, the dataset was heavily imbalanced.
+
+<ins>When I trained</ins> 4 models after splitting the data into training and testing instances, <ins>I found</ins> that all 4 models achieved high accuracies. <ins>Hence</ins>, all models were able to model the relationship between the features and the output. 
+
+
+### Exploratory Data Analysis
 
 ![piechart_example](https://github.com/Dr-M-ELBA/Practical_3/assets/158515515/d64f4924-1f3c-4555-8b50-56f845fdd5c9)
 
@@ -41,7 +53,7 @@ I trained 4 different learners were there accuracy, f1 score and matthews coeffi
 | Random Forest | 100  | 90 | 0.90 |
 | Neural Net | 99 | 60 | 0.65 |
 | Logistic Regression | 99 | 56 | 0.62 |
-| Decision Tree | 99 | 87 | 0.0.87 |
+| Decision Tree | 99 | 87 | 0.87 |
 
 The results show that despite the imbalance, all four models were able to accurately predict the patients clinical condition. The high MCC score confirmed
 that the models were performing much better than random guessing. I then removed the feature 'Blood Glucose Level' and discovered...
