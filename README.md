@@ -9,6 +9,7 @@ Once you have finished, upload your report to your own github repo. Please 'Exam
 ### Cloning the repo to colab
    - Copy  and paste the following code into colab and then execture:
      - !git clone https://github.com/Dr-M-ELBA/Practical_3.git
+![image](https://github.com/Sirczechs-Kaustubh/Diabetes_Predicition_ML/assets/128580953/bd5e4a65-c804-4a99-a9a5-db9683ab284c)
 
 
 
